@@ -19,7 +19,7 @@ tensorboardX  2.5
 tensorboard  1.14.0
 ```
  ## Predict
-Place the prediction data in "predict_data"
+Place the prediction data in "data"
 
 To identify whether peptides are ACPs, run:
 ```
