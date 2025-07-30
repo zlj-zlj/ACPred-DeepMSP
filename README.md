@@ -1,5 +1,7 @@
 # ACPred-DeepMSP
-ACPred-DeepMSP is a dual-function predictor capable of both anticancer peptide identification (ACP/non-ACP) and anticancer peptide function prediction (multi-label classification), The corresponding research paper is ***ACPred-DeepMSP: A Deep Learning Framework for Multi-task Anticancer Peptide Prediction via Sequence-Structure Feature Fusion***
+ACPred-DeepMSP is a dual-function predictor capable of both anticancer peptide identification (ACP/non-ACP) and anticancer peptide function prediction (multi-label classification), The corresponding research paper is ***ACPred-DeepMSP: A Multi-Task Deep Learning
+Framework for Anticancer Peptide Prediction via
+Sequence-Structure Feature Learning***
 ## Download 
 You need to download the ESM-2 model from: https://huggingface.co/facebook/esm2_t33_650M_UR50D.
 Additionally, download trRosetta from: https://github.com/gjoni/trRosetta and place the model in the "utils/trRosetta" directory.
