@@ -173,7 +173,7 @@ def load_pretrained_model(model_path, device,output):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    input_fasta = "data/predict_data/"
+    input_fasta = "data/"
     parser.add_argument('-result_save', type=str,
                         default=f'{input_fasta}/result.txt',
                         help='Path to save results')
